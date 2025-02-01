@@ -1,0 +1,219 @@
+body {
+  font-family: Roboto;
+}
+.fa-bars {
+  color: #239b7e;
+  font-size: 25px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 20px;
+  align-items: center;
+}
+nav h2 {
+  font-size: 25px;
+}
+h1 {
+  font-family: Playfair Display SC;
+}
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+.hero img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-block: 10px;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-block: 10px;
+}
+.hero h1:nth-child(1) {
+  color: grey;
+}
+.coloured,
+.non-coloured:hover {
+  background-color: #239b7e;
+  color: white;
+  margin-inline: 15px;
+  border: none;
+  padding: 10px 15px;
+}
+.non-coloured,
+.coloured:hover {
+  color: #239b7e;
+  background-color: white;
+  border: 2px solid #239b7e;
+  margin-inline: 5px;
+  padding: 10px 15px;
+  .hero p {
+    margin: 40px;
+    color: gray;
+    font-size: 18px;
+  }
+}
+.summer {
+  text-align: center;
+  margin-top: 50px;
+}
+.summer img,
+.clients img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.summer-text h1 {
+  font-size: 35px;
+  margin-block: 10px;
+  margin-top: 30px;
+}
+.summer span {
+  color: gray;
+}
+.summer-text button {
+  background-color: #239b7e;
+  color: white;
+  border: 5px solid #239b7e;
+}
+.products-top {
+  margin-top: 75px;
+  text-align: center;
+}
+.products h2 {
+  font-size: 30px;
+}
+.products button {
+  border: 2px solid grey;
+  padding: 10px 10px;
+  background-color: white;
+  color: gray;
+}
+.products button:hover {
+  border: 2px solid #239b7e;
+  color: #239b7e;
+}
+.products button.coloured {
+  border: 2px solid #239b7e;
+  color: #239b7e;
+  background-color: white;
+  padding: 10px 10px;
+  margin-inline: 5px;
+}
+.products button.coloured:hover {
+  background-color: #239b7e;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+}
+.product-card-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin-inline: auto;
+  padding: 10px 20px;
+  justify-items: center;
+}
+.product-card {
+  width: 250px;
+}
+.product-image {
+  background-color: #ebf1f0;
+  padding: 20px 50px;
+}
+.products img {
+  width: 150px;
+  height: 200px;
+}
+.clients {
+  text-align: center;
+  margin-top: 100px;
+}
+.clients img {
+  width: 150px;
+  height: 150px;
+}
+.clients-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.clients-card {
+  width: 300px;
+}
+.clients h2 {
+  font-size: 35px;
+}
+.clients h4 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 80vh;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  width: 250px;
+}
+footer h3 {
+  font-size: 30px;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hero-text {
+    width: 50%;
+  }
+  .hero img {
+    margin-top: 0;
+    width: 400px;
+    height: 400px;
+  }
+  .hero h1 {
+    font-size: 55px;
+  }
+  .summer {
+    display: flex;
+    text-align: left;
+    gap: 50px;
+    justify-content: space-around;
+  }
+  .summer-text {
+    width: 50%;
+  }
+  .summer img {
+    margin-top: 0;
+    width: 350px;
+    height: 350px;
+  }
+  .summer h1 {
+    font-size: 55px;
+  }
+}
